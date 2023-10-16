@@ -5,7 +5,7 @@ Connect-AzAccount -Identity
 $subscriptions = Get-AzSubscription
 
 # Resource providers to enable
-$resourceProvidersToEnable = @("Microsoft.PolicyInsights", "Microsoft.Insights")
+$resourceProvidersToEnable = @("Microsoft.PolicyInsights", "Microsoft.Insights", "Microsoft.Maintenance")
 
 # Loop through each subscription
 foreach ($subscription in $subscriptions) {
