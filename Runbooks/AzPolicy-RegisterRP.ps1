@@ -1,4 +1,4 @@
-# Login to your Azure account using managed identity
+# Connect to Azure with Managed Identity
 Connect-AzAccount -Identity
 
 # Get all subscriptions
